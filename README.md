@@ -79,6 +79,143 @@ Definition: A concept that allows we pages to be responsive across different scr
 
 ![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/bc9fd76d-f592-425f-ac59-f8b85a8e30c5)
 
+# JAVASCRIPT
+* It gives us the ability to directly manipulate the DOM (Document Object Model)
+* 'script tag' - we're telling the browser that anything between these tags should be interpreted as JS code to be executed
+
+**EVENTS**:
+* Everything user does will generally be thought as an 'event'
+  1. User clicks button
+  2. User selects an option from a drop down list
+  3. Submit a form. 
+
+**EVENT LISTENER**:
+* When an event happens, JS will run a particular block of codes or functions.
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/a5401d84-736c-46fe-8b85-e3b65dacae0b)
+
+**VARIABLES**:
+* Something that is keeping track of data like the number that we are currently have counted to
+  
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/1e22b6d1-5128-4c75-a393-30cc085d1fa6)
+
+**HOW TO MANIPULATE FUNCTIONS WITH (USING PREVIOUS EXAMPLE - COUNTER)**
+
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/6e3f5d10-b82d-4ff3-b869-9708c288004a)
+
+
+**QUERY SELECTORS**
+* Document.querySelectors: gives us the ability to look through an HTML page and extract an element out of that page
+* So we can manipulate that HTML element using JS code
+
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/915ec58e-a56a-4584-a1eb-f66f6eee77ca)
+
+**CONDITIONS**
+* We can only run a certain blocks of code when a particular expression is true
+
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/5da360e3-bf15-4ab7-a93f-bd21f3d73a47)
+
+**EVENT LISTENER (USING PREVIOUS EXAMPLE - COUNTER)**
+* We are going to use the 'counter' function we have done earlier
+* Replace 'onclick' with '
+* The following example is without attaching event listener
+
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/eacc1189-ce5f-48c2-b079-3022eb7ec515)
+
+* The following example shows how we can remove onclick property from HTML element and run it in javascript
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/4b042c8e-5721-4fbd-ae22-55e33c573a38)
+
+* This example shows how we can attach event listener to a JS code
+
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/1b7d1b9f-cf11-45c7-8771-70a48285c50d)
+
+**HANDLING USER INTERACTION USING JAVASCRIPT - FORM**
+* Use query selector to read information from the page
+* Access what users put in input field
+* Use event handling and alert to respond dynamically when user submits the form
+
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/f25ed011-cd4a-4c74-af50-454a1addf95f)
+
+**USING JAVASCRIPT TO STYLE WEBPAGE**
+
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/9109f0da-1df4-488e-8c7c-aae057043db1)
+
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/2d69cbe2-1d6d-484d-85e1-aa54a01fb988)
+
+**HOW TO CONSOLIDATE THE FUNCTION AND AVOID UNNECESSARY REPETITIONS? - DATA ATTRIBUTE**
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/c0a0d4a8-abc5-48cb-877d-0ad619f43aeb)
+
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/5f72d2f1-046d-4bed-8051-1d98a4b37179)
+
+**DROPDOWN MENU IN JAVASCRIPT**
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/999a7e4a-355c-44f9-b90e-55270ede86be)
+
+**TO-DO-LIST WITH JAVASCRIPT**
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/cd30cce6-732c-4180-a492-8b4564773376)
+
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/bf72fbd8-e59c-4ced-81df-aa546a7ad107)
+
+**SETTING INTERVAL**
+* JavaScript can allow codes to work even without user interaction.
+* Interval means to a time-based event that occurs repeatedly at specified intervals.
+  
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/c62ec710-8080-4e7d-be7a-6328fad54d6a)
+
+**LOCAL STORAGE**
+* It's a way for us to be able to store information inside of the user's web browser
+* A page can ask to store a particular values inside the web browser
+* Later on, on subsequent visits to that page, we can go back and extract those values that were previously stored inside local storage
+* There are 2 ways to access local storage:
+  
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/a6e5997b-be7f-417f-b509-893ed5d7e2f6)
+
+**HOW TO USE LOCAL STORAGE IN JAVASCRIPT (WE WILL STILL USE EXAMPLE FROM COUNTER)**
+![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/22691f21-e313-418f-af1d-e446d885fc46)
+
+# APPLICATION PROGRAMMING INTERFACE (API)
+* A well-defined structure way for services on the internet to communicate with each other
+* If you want your application to interact with other service (Google map, weather service, etc.), you can use API
+* API is a mechanism that allows you to communicate with another service by sending a request and receiving back data in a well-structure format
+* That particular format is known as JSON - JavaScript Object Notation
+    * It's a way of transferring data in the form of JavaScript objects.
+    * Objects have properties and values associated with them ---> 'key-value' pairs
+      
+    ![image](https://github.com/asyikin22/CS50W-Harvard/assets/148519441/9e643064-07de-47de-ac3f-35feb77ae214)
+
+**AJAX**
+* Asynchronous JavaScript
+* Even after a page has loaded, using JS, we can make additional web requests to ask for additional information from
+  1. Our own web server
+  2. Third party web server
+     
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
