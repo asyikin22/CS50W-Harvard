@@ -186,6 +186,18 @@ Definition: A concept that allows we pages to be responsive across different scr
 * Even after a page has loaded, using JS, we can make additional web requests to ask for additional information from
   1. Our own web server
   2. Third party web server
+
+# PYTHON
+
+**Lesson Overview:**
+* Variables
+* Conditions
+* Sequences
+* Functions
+* Modules
+* Object-Oriented Programming
+* Functional Programming
+* Exceptions
      
 
 
